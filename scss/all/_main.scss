@@ -1,21 +1,23 @@
-main{
-    width: 100%;
+main {
+  width: 100%;
 }
 
-body{
-    ::-webkit-scrollbar{
-        width: 0px;
-    }
+body {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
 }
 
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
 
-.show{
-    display: block;
+.show {
+  display: block;
 }
 
-.overhidden{
-    overflow: hidden;
+.overhidden {
+  overflow: hidden;
 }
+
+

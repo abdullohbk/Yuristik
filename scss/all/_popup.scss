@@ -1,0 +1,57 @@
+.popup__wrapper {
+  min-height: 100vh;
+  .container {
+    .popupwrapper2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .popup__wrapper--right {
+        h1 {
+          font-family: "Open Sans";
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.96px;
+          color: $black;
+          width: 460px;
+          margin-bottom: 20px;
+        }
+
+        div {
+          display: flex;
+        }
+
+        .users__wrapper {
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          margin-bottom: 20px;
+        }
+
+        .wrapper--btn {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 15px;
+          input {
+            padding: 10px 10px;
+            border-radius: 10px;
+            border: 1px solid $gray;
+          }
+
+          button {
+            display: flex;
+            padding: 16px 24px 18px 24px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background: #140a32;
+            border-radius: 10px;
+            color: $white;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

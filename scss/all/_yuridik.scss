@@ -1,0 +1,177 @@
+#yuridik {
+  padding-top: 100px;
+  padding-bottom: 360px;
+  .container {
+    .yuridik__top {
+      padding-bottom: 80px;
+      h1 {
+        color: $black;
+        font-family: "Open Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.96px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: $black;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 80px;
+      }
+    }
+
+    .yuridik__bottom {
+      h1 {
+        color: $black;
+        font-family: "Open Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.96px;
+        margin-bottom: 15px;
+      }
+      p {
+        color: $black;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+      }
+      &--wrapper {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        &--card {
+          width: 270px;
+          padding: 20px;
+          border: 1px solid;
+          border-radius: 10px;
+          p {
+            margin: 15px 0;
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $black;
+          }
+          b {
+            display: block;
+            margin: 15px 0;
+            font-family: "Open Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: $black;
+          }
+
+          a {
+            text-decoration: none;
+            color: $main-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #yuridik {
+    padding-top: 100px;
+    padding-bottom: 360px;
+    .container {
+      .yuridik__top {
+        padding-bottom: 80px;
+        h1 {
+          color: $black;
+          font-family: "Open Sans";
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.96px;
+          margin-bottom: 20px;
+        }
+
+        p {
+          color: $black;
+          font-family: "Open Sans";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          margin-bottom: 80px;
+          width: 330px;
+        }
+      }
+
+      .yuridik__bottom {
+        h1 {
+          color: $black;
+          font-family: "Open Sans";
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.96px;
+          margin-bottom: 15px;
+        }
+        p {
+          color: $black;
+          font-family: "Open Sans";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          width: 340px;
+        }
+        &--wrapper {
+          margin-top: 30px;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          &--card {
+            width: 170px;
+            padding: 20px;
+            border: 1px solid;
+            border-radius: 10px;
+            p {
+              margin: 15px 0;
+              font-family: "Open Sans";
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              color: $black;
+              width: 140px;
+            }
+            b {
+              display: block;
+              margin: 15px 0;
+              font-family: "Open Sans";
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              color: $black;
+            }
+
+            a {
+              text-decoration: none;
+              color: $main-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+#temi {
+  padding-bottom: 100px;
+  .container {
+    h1 {
+      font-family: "Open Sans";
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      color: $black;
+      margin-bottom: 40px;
+    }
+
+    .temi__card--wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 20px;
+      &--card {
+        width: 270px;
+        h3 {
+          font-family: "Open Sans";
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          color: $black;
+        }
+
+        p {
+          font-family: "Open Sans";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          color: $black;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}

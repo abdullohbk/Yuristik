@@ -1,0 +1,198 @@
+header {
+  padding: 40px 0;
+  width: 100%;
+  .container {
+    .navtop {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      &__img {
+        display: none;
+      }
+      &__input--wrapper {
+        position: relative;
+        input {
+          width: 427px;
+          border-radius: 10px;
+          background: var(--Gray-Background, rgba(47, 43, 67, 0.04));
+          padding: 14px 20px;
+          border: none;
+        }
+        img {
+          position: absolute;
+          right: 20px;
+          top: 10px;
+        }
+      }
+
+      button {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: $main-color;
+        color: white;
+      }
+
+      &__text--wrapper {
+        b {
+          font-size: 20px;
+          font: bold;
+        }
+
+        p {
+          color: $gray;
+        }
+      }
+    }
+
+    .navbottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__a--wrapper {
+        display: flex;
+        gap: 15px;
+        a {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          text-decoration: none;
+          color: $black;
+          border: 1px solid $gray;
+          padding: 10px 20px;
+          border-radius: 10px;
+          transition: all 0.2s linear;
+          &:hover {
+            background-color: $btn__hover1;
+            color: $white;
+            border: 1px solid $btn__hover1;
+          }
+        }
+      }
+      &__list {
+        display: flex;
+        gap: 30px;
+        &--item {
+          list-style-type: none;
+          cursor: pointer;
+        }
+      }
+
+      &__text--wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    padding: 40px 0;
+    width: 100%;
+    .container {
+      .navtop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        border-bottom: 1px solid $gray;
+        padding-bottom: 10px;
+        &__img {
+          display: block;
+        }
+        &__input--wrapper {
+          position: relative;
+          display: none;
+          input {
+            width: 427px;
+            border-radius: 10px;
+            background: var(--Gray-Background, rgba(47, 43, 67, 0.04));
+            padding: 14px 20px;
+            border: none;
+          }
+          img {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+          }
+        }
+
+        button {
+          padding: 10px 20px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          border: none;
+          border-radius: 10px;
+          background-color: $main-color;
+          color: white;
+          display: none;
+          &:hover {
+            background: $btn__hover2;
+          }
+        }
+
+        &__text--wrapper {
+          display: none;
+          b {
+            font-size: 20px;
+            font: bold;
+          }
+
+          p {
+            color: $gray;
+          }
+        }
+      }
+
+      .navbottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: none;
+        &__a--wrapper {
+          display: flex;
+          gap: 15px;
+          a {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            text-decoration: none;
+            color: $black;
+            border: 1px solid $gray;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: all 0.2s linear;
+            &:hover {
+              background-color: $btn__hover1;
+              color: $white;
+              border: 1px solid $btn__hover1;
+            }
+          }
+        }
+        &__list {
+          display: flex;
+          gap: 30px;
+          &--item {
+            list-style-type: none;
+            cursor: pointer;
+          }
+        }
+
+        &__text--wrapper {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
